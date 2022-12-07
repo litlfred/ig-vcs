@@ -1,0 +1,57 @@
+﻿smartigempty : Validation Results
+=========================================
+
+err = 1, warn = 4, info = 0
+IG Publisher Version: 1.2.22
+Generated Wed Dec 07 11:08:33 UTC 2022. FHIR version 4.0.1 for fhir.who.smart-ig-empty#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-empty)
+ Build Errors : 41 / 3 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-fhir.who.smart-ig-empty : 1 / 1 / 1
+</table>
+== n/a ==
+ERROR: /github/workspace/output/actors.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/adapting_guidelines.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/background.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/business_process.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/changes.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/checklist.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/checklist.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 316, column 38: The link 'sequence_diagram.html' for "Data Models and Exchange.Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/checklist.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 330, column 38: The link 'artifacts.html#structures-logical-models' for "Indices.Artifacts Summary.Structures:Logical Models" cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, family-logo, family-nav, ig-status, artifacts-summary, top, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb])
+ERROR: /github/workspace/output/community.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/concepts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/content_profiles.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/data_exchange.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/decision_support.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/dependencies.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/deployment.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/dictionary.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/disclaimer.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/feedback.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/functional.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/indicators.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/instructions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/instructions.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 274, column 42: The link '#checklist' for "Smart Guidelines IG checklist" cannot be resolved (valid targets: [instructions, publish-box, segment-post-footer, new-smart, adaptation, creating-a-new-github-repository, family-logo, top, scope, country-adaptation-of-an-existing-guide, stripe, segment-footer, creating-a-new-who-smart-guidline, segment-content, generation, github, generating-an-implmentation-guide, segment-header, bottom, directory-structure, family-nav, ig-status, 1, modify, 2, 3, 4, modifying-the-template-repository, directory-layout-for-content, segment-navbar, segment-breadcrumb])
+ERROR: /github/workspace/output/instructions.html#/html/body/div/div/div/div/div/div/ul/li/dl/dd/a at Line 278, column 13: The link 'hl7.org/fhir/uv/shorthand/' for "FHIR Shorthand" cannot be resolved
+ERROR: /github/workspace/output/instructions.html#/html/body/div/div/div/div/div/div/ul/li/dl/dd/a at Line 290, column 68: The link '#checklist' for "Smart Guidelines IG checklist" cannot be resolved (valid targets: [instructions, publish-box, segment-post-footer, new-smart, adaptation, creating-a-new-github-repository, family-logo, top, scope, country-adaptation-of-an-existing-guide, stripe, segment-footer, creating-a-new-who-smart-guidline, segment-content, generation, github, generating-an-implmentation-guide, segment-header, bottom, directory-structure, family-nav, ig-status, 1, modify, 2, 3, 4, modifying-the-template-repository, directory-layout-for-content, segment-navbar, segment-breadcrumb])
+ERROR: /github/workspace/output/layers.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/license.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/maps.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/nonfunctional.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/personas.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/reference_implementation.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/references.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/requirements.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/security_privacy.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/transactions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/usecases.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/workflows.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-fhir.who.smart-ig-empty.json ==
+WARNING: ImplementationGuide/fhir.who.smart-ig-empty: ImplementationGuide: Rule ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: ImplementationGuide/fhir.who.smart-ig-empty: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)
