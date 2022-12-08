@@ -1,9 +1,72 @@
 [
   {
+    "id" : "VerifiableCredential",
+    "type" : "StructureDefinition",
+    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredential",
+    "version" : "0.2.1",
+    "name" : "VerifiableCredential"
+  },
+  {
+    "id" : "VerifiableCredentialEvidence",
+    "type" : "StructureDefinition",
+    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialEvidence",
+    "version" : "0.2.1",
+    "name" : "VerifiableCredentialEvidence"
+  },
+  {
+    "id" : "VerfiiableCredentialJWT",
+    "type" : "StructureDefinition",
+    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialJWT",
+    "version" : "0.2.1",
+    "name" : "VerfiiableCredentialJWT"
+  },
+  {
+    "id" : "VerifiableCredentialProof",
+    "type" : "StructureDefinition",
+    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialProof",
+    "version" : "0.2.1",
+    "name" : "VerifiableCredentialProof"
+  },
+  {
+    "id" : "VerifiableCredentialRefreshService",
+    "type" : "StructureDefinition",
+    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialRefreshService",
+    "version" : "0.2.1",
+    "name" : "VerifiableCredentialRefreshService"
+  },
+  {
+    "id" : "VerifiableCredentialStatus",
+    "type" : "StructureDefinition",
+    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialStatus",
+    "version" : "0.2.1",
+    "name" : "VerifiableCredentialStatus"
+  },
+  {
+    "id" : "VerifiableCredentialSubject",
+    "type" : "StructureDefinition",
+    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialSubject",
+    "version" : "0.2.1",
+    "name" : "VerifiableCredentialSubject"
+  },
+  {
+    "id" : "VerifiableCredentialTermsOfUse",
+    "type" : "StructureDefinition",
+    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialTermsOfUse",
+    "version" : "0.2.1",
+    "name" : "VerifiableCredentialTermsOfUse"
+  },
+  {
     "id" : "fhir.who.smart-ig-empty",
     "type" : "ImplementationGuide",
     "url" : "http://worldhealthorganization.github.io/smart-ig-empty/ImplementationGuide/fhir.who.smart-ig-empty",
     "version" : "0.2.1",
     "name" : "smartigempty"
+  },
+  {
+    "id" : "verfiable-credential-type",
+    "type" : "ValueSet",
+    "url" : "http://worldhealthorganization.github.io/smart-ig-empty/ValueSet/verfiable-credential-type",
+    "version" : "0.2.1",
+    "name" : "VerifiableCredentualType"
   }
 ]

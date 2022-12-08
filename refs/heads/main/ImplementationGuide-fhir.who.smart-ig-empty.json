@@ -65,17 +65,6 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueString" : "autoload-resources"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
         "valueString" : "path-liquid"
       },
       {
@@ -259,6 +248,114 @@
         "valueString" : "true"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    }],
+    "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VerfiiableCredentialJWT"
+      },
+      "name" : "Logical Model for Verifiable Credentials as JWT",
+      "description" : "Logical Model for Verifiable Credentials as JWT",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VerifiableCredential"
+      },
+      "name" : "Logical Model for Verifiable Credentials",
+      "description" : "Logical Model for Verifiable Credentials",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VerifiableCredentialEvidence"
+      },
+      "name" : "Logical Model for Verifiable Credential Evidence",
+      "description" : "Logical Model for Verifiable Credential Evidence",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VerifiableCredentialProof"
+      },
+      "name" : "Logical Model for Verifiable Credential Proof",
+      "description" : "Logical Model for Verifiable Credential Proof",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VerifiableCredentialRefreshService"
+      },
+      "name" : "Logical Model for Verifiable Refresh Service",
+      "description" : "Logical Model for Verifiable Refresh Service",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VerifiableCredentialStatus"
+      },
+      "name" : "Logical Model for Verifiable Credential Status",
+      "description" : "Logical Model for Verifiable Credential Status",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VerifiableCredentialSubject"
+      },
+      "name" : "Logical Model for Verifiable Credential Subject",
+      "description" : "Logical Model for Verifiable Credential Subject",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VerifiableCredentialTermsOfUse"
+      },
+      "name" : "Logical Model for Verifiable Credential Terms of Use",
+      "description" : "Logical Model for Verifiable Credential Terms of Use",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/verfiable-credential-type"
+      },
+      "name" : "Types of Verifiable Credenitals",
+      "description" : "Types of Verifiable Credenitals",
+      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{

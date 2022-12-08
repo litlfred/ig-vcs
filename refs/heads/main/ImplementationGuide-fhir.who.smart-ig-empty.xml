@@ -57,14 +57,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueString value="autoload-resources"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueString value="path-liquid"/>
       </extension>
       <extension url="value">
@@ -199,6 +191,105 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VerfiiableCredentialJWT"/>
+      </reference>
+      <name value="Logical Model for Verifiable Credentials as JWT"/>
+      <description value="Logical Model for Verifiable Credentials as JWT"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VerifiableCredential"/>
+      </reference>
+      <name value="Logical Model for Verifiable Credentials"/>
+      <description value="Logical Model for Verifiable Credentials"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VerifiableCredentialEvidence"/>
+      </reference>
+      <name value="Logical Model for Verifiable Credential Evidence"/>
+      <description value="Logical Model for Verifiable Credential Evidence"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VerifiableCredentialProof"/>
+      </reference>
+      <name value="Logical Model for Verifiable Credential Proof"/>
+      <description value="Logical Model for Verifiable Credential Proof"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VerifiableCredentialRefreshService"/>
+      </reference>
+      <name value="Logical Model for Verifiable Refresh Service"/>
+      <description value="Logical Model for Verifiable Refresh Service"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VerifiableCredentialStatus"/>
+      </reference>
+      <name value="Logical Model for Verifiable Credential Status"/>
+      <description value="Logical Model for Verifiable Credential Status"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VerifiableCredentialSubject"/>
+      </reference>
+      <name value="Logical Model for Verifiable Credential Subject"/>
+      <description value="Logical Model for Verifiable Credential Subject"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VerifiableCredentialTermsOfUse"/>
+      </reference>
+      <name value="Logical Model for Verifiable Credential Terms of Use"/>
+      <description value="Logical Model for Verifiable Credential Terms of Use"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/verfiable-credential-type"/>
+      </reference>
+      <name value="Types of Verifiable Credenitals"/>
+      <description value="Types of Verifiable Credenitals"/>
+      <exampleBoolean value="false"/>
+    </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
         <valueUrl value="toc.html"/>
