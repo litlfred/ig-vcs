@@ -26,7 +26,7 @@ Description:    "Logical Model for Verifiable Credential Evidence"
 * ^version = "0.1"
 * ^abstract = false
 * ^status = #draft
-* id 0..1 url "Idenitigifer" "URL that points to where more information about this instance of evidence can be found"
+* id 0..1 url "Identifier" "URL that points to where more information about this instance of evidence can be found"
 * type 1..1 string "Type" "Type of evidence"
 
 
@@ -99,7 +99,40 @@ Description:    "Logical Model for Verifiable Credentials"
 * validFrom 0..1 dateTime "Valid From" "Valid From"
 * validUntil 0..1 dateTime "Valid Until" "Valid Until"
 
-Logical:        VerfiiableCredentialJWT
+
+
+
+
+Logical:        VerifiableCredentialSubjectBundle
+Parent:         VerifiableCredentialSubject
+Title:          "Logical Model for Verifiable Credential Subject - FHIR Bundle"
+Description:    "Logical Model for Verifiable Credential Subject - FHIR Bundle"
+* ^url = "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialSubjectBundle"
+* ^version = "0.1"
+* ^abstract = false
+* ^status = #draft
+* fhirVersion 1..1 string "FHIR Version" "FHIR Version"
+* fhirBundle 1..1 Bundle "FHIR Bundle"  "FHIB Bundle"
+
+
+
+Invariant:      verifiable-credenital-subject-is-bundle
+Description:    "Subject of Verifiable Credential is a FHIR Bundle with Version"
+Expression:     "credentialSubject.is(FHIR.VerfiableCredenitalSubjectBundle)"
+Severity:       #error
+
+
+
+Logical:        VerifiableCredentialBundle
+Parent:		VerifiableCredential
+Title:          "Logical Model for Verifiable Credentials - FHIR Bundle"
+Description:    "Logical Model for Verifiable Credentials - FHIR Bundle"
+* ^url = "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialBundle"
+* obeys verifiable-credenital-subject-is-bundle
+//* credentialSubject only VerifiableCredentialSubjectBundle
+
+
+Logical:        VerfiableCredentialJWT
 Title:          "Logical Model for Verifiable Credentials as JWT"
 Description:    "Logical Model for Verifiable Credentials as JWT"
 * ^url = "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialJWT"
