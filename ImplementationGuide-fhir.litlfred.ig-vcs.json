@@ -380,6 +380,17 @@
       "name" : "Types of Verifiable Credenitals",
       "description" : "Types of Verifiable Credenitals",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureMap"
+      }],
+      "reference" : {
+        "reference" : "StructureMap/BundleToVC"
+      },
+      "name" : "BundleToVerfiableCredential",
+      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{
