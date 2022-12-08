@@ -1,0 +1,95 @@
+{
+  "resourceType" : "StructureMap",
+  "id" : "BundleToVC",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2022-12-08T09:56:45.030+00:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><pre>map &quot;http://litlfred.github.io/iv-vcs/StructureMap/BundleToVerifiableCredential&quot; = &quot;BundleToVerfiableCredential&quot;\r\n\r\n\r\nuses &quot;http://hl7.org/fhir/StructureDefinition/Bundle&quot; alias Bundle as source\r\nuses &quot;http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredential&quot; alias VC as target\r\n\r\ngroup BundleToVerifirableCredential(source bundle : Bundle, target vc : VC) {\r\n vc.credentialSubject as cs then {\r\n cs as cs -&gt; cs.fhirVersion = '4.0.1' &quot;set version&quot;;\r\n cs as cs -&gt; cs.fhirBundle = bundle &quot;set bundle&quot;;\r\n } &quot;Set Bundle as credenital and version&quot;;\r\n}\r\n\r\n</pre></div>"
+  },
+  "url" : "http://litlfred.github.io/iv-vcs/StructureMap/BundleToVerifiableCredential",
+  "version" : "0.2.1",
+  "name" : "BundleToVerfiableCredential",
+  "status" : "draft",
+  "date" : "2022-12-08T13:19:01+00:00",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }],
+  "structure" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/Bundle",
+    "mode" : "source",
+    "alias" : "Bundle"
+  },
+  {
+    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredential",
+    "mode" : "target",
+    "alias" : "VC"
+  }],
+  "group" : [{
+    "name" : "BundleToVerifirableCredential",
+    "typeMode" : "none",
+    "input" : [{
+      "name" : "bundle",
+      "type" : "Bundle",
+      "mode" : "source"
+    },
+    {
+      "name" : "vc",
+      "type" : "VC",
+      "mode" : "target"
+    }],
+    "rule" : [{
+      "name" : "Set Bundle as credenital and version",
+      "source" : [{
+        "context" : "vc",
+        "element" : "credentialSubject",
+        "variable" : "cs"
+      }],
+      "rule" : [{
+        "name" : "set version",
+        "source" : [{
+          "context" : "cs",
+          "variable" : "cs"
+        }],
+        "target" : [{
+          "context" : "cs",
+          "contextType" : "variable",
+          "element" : "fhirVersion",
+          "transform" : "copy",
+          "parameter" : [{
+            "valueString" : "4.0.1"
+          }]
+        }]
+      },
+      {
+        "name" : "set bundle",
+        "source" : [{
+          "context" : "cs",
+          "variable" : "cs"
+        }],
+        "target" : [{
+          "context" : "cs",
+          "contextType" : "variable",
+          "element" : "fhirBundle",
+          "transform" : "copy",
+          "parameter" : [{
+            "valueId" : "bundle"
+          }]
+        }]
+      }]
+    }]
+  }]
+}

@@ -1,10 +1,10 @@
 ﻿smartigempty : Validation Results
 =========================================
 
-err = 20, warn = 7, info = 0
+err = 25, warn = 8, info = 0
 IG Publisher Version: 1.2.22
-Generated Thu Dec 08 13:18:23 UTC 2022. FHIR version 4.0.1 for fhir.litlfred.ig-vcs#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-empty)
- Build Errors : 125 / 3 / 0
+Generated Thu Dec 08 13:19:24 UTC 2022. FHIR version 4.0.1 for fhir.litlfred.ig-vcs#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-empty)
+ Build Errors : 130 / 4 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-fhir.litlfred.ig-vcs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-VerfiableCredentialJWT : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredential : 2 / 0 / 1
@@ -17,8 +17,10 @@ Generated Thu Dec 08 13:18:23 UTC 2022. FHIR version 4.0.1 for fhir.litlfred.ig-
  /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialSubjectBundle : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialTermsOfUse : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-verfiable-credential-type : 0 / 3 / 1
+ /github/workspace/input/resources/StructureMap-BundleToVC : 5 / 0 / 1
 </table>
 == n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureMap/BundleToVC.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /github/workspace/output/StructureDefinition-VerfiableCredentialJWT-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerfiableCredentialJWT-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerfiableCredentialJWT-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
@@ -99,6 +101,11 @@ ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialTermsOfU
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialTermsOfUse.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialTermsOfUse.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialTermsOfUse.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureMap-BundleToVC.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureMap-BundleToVC.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureMap-BundleToVC.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureMap-BundleToVC.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureMap-BundleToVC.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/ValueSet-verfiable-credential-type.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/ValueSet-verfiable-credential-type.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/ValueSet-verfiable-credential-type.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
@@ -183,3 +190,9 @@ ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableC
 WARNING: ValueSet/verfiable-credential-type: ValueSet.compose[0].include[0]: Unknown System 'https://www.w3.org/2018/credentials/v1' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system https://www.w3.org/2018/credentials/v1. Server Error: The code system 'https://www.w3.org/2018/credentials/v1' is not known (encountered paired with code = 'VC'); The code provided (https://www.w3.org/2018/credentials/v1#VC) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
 WARNING: ValueSet/verfiable-credential-type: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 WARNING: ValueSet.where(id = 'verfiable-credential-type'): Error from server: Unable to provide support for code system https://www.w3.org/2018/credentials/v1
+== input/resources/StructureMap-BundleToVC.json ==
+ERROR: StructureMap.where(url = 'http://litlfred.github.io/iv-vcs/StructureMap/BundleToVerifiableCredential'): Conformance resource /github/workspace/input/resources/StructureMap-BundleToVC.json - the canonical URL (http://worldhealthorganization.github.io/smart-ig-empty/StructureMap/BundleToVC) does not match the URL (http://litlfred.github.io/iv-vcs/StructureMap/BundleToVerifiableCredential)
+ERROR: StructureMap/BundleToVC: StructureMap.group[0].rule[0].name: id value 'Set Bundle as credenital and version' is not valid
+ERROR: StructureMap/BundleToVC: StructureMap.group[0].rule[0].rule[0].name: id value 'set version' is not valid
+ERROR: StructureMap/BundleToVC: StructureMap.group[0].rule[0].rule[1].name: id value 'set bundle' is not valid
+ERROR: /github/workspace/input/resources/StructureMap-BundleToVC: URL Mismatch http://worldhealthorganization.github.io/smart-ig-empty/StructureMap/BundleToVC vs http://litlfred.github.io/iv-vcs/StructureMap/BundleToVerifiableCredential

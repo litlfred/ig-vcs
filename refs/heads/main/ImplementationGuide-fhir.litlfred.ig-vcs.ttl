@@ -442,6 +442,19 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Types of Verifiable Credenitals" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Types of Verifiable Credenitals" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureMap" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://worldhealthorganization.github.io/smart-ig-empty/StructureMap/BundleToVC>;
+         fhir:Reference.reference [ fhir:value "StructureMap/BundleToVC" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BundleToVerfiableCredential" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:Element.extension [

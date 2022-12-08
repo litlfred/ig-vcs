@@ -70,6 +70,13 @@
     "name" : "VerifiableCredentialTermsOfUse"
   },
   {
+    "id" : "BundleToVC",
+    "type" : "StructureMap",
+    "url" : "http://litlfred.github.io/iv-vcs/StructureMap/BundleToVerifiableCredential",
+    "version" : "0.2.1",
+    "name" : "BundleToVerfiableCredential"
+  },
+  {
     "id" : "fhir.litlfred.ig-vcs",
     "type" : "ImplementationGuide",
     "url" : "http://worldhealthorganization.github.io/smart-ig-empty/ImplementationGuide/fhir.litlfred.ig-vcs",

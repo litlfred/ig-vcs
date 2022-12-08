@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureMap xmlns="http://hl7.org/fhir">
+  <id value="BundleToVC"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2022-12-08T09:56:45.030+00:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><pre>map &quot;http://litlfred.github.io/iv-vcs/StructureMap/BundleToVerifiableCredential&quot; = &quot;BundleToVerfiableCredential&quot;
+
+
+uses &quot;http://hl7.org/fhir/StructureDefinition/Bundle&quot; alias Bundle as source
+uses &quot;http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredential&quot; alias VC as target
+
+group BundleToVerifirableCredential(source bundle : Bundle, target vc : VC) {
+ vc.credentialSubject as cs then {
+ cs as cs -&gt; cs.fhirVersion = '4.0.1' &quot;set version&quot;;
+ cs as cs -&gt; cs.fhirBundle = bundle &quot;set bundle&quot;;
+ } &quot;Set Bundle as credenital and version&quot;;
+}
+
+</pre></div>
+  </text>
+  <url value="http://litlfred.github.io/iv-vcs/StructureMap/BundleToVerifiableCredential"/>
+  <version value="0.2.1"/>
+  <name value="BundleToVerfiableCredential"/>
+  <status value="draft"/>
+  <date value="2022-12-08T13:19:01+00:00"/>
+  <publisher value="WHO"/>
+  <contact>
+    <name value="WHO"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://who.int"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <structure>
+    <url value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+    <mode value="source"/>
+    <alias value="Bundle"/>
+  </structure>
+  <structure>
+    <url value="http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredential"/>
+    <mode value="target"/>
+    <alias value="VC"/>
+  </structure>
+  <group>
+    <name value="BundleToVerifirableCredential"/>
+    <typeMode value="none"/>
+    <input>
+      <name value="bundle"/>
+      <type value="Bundle"/>
+      <mode value="source"/>
+    </input>
+    <input>
+      <name value="vc"/>
+      <type value="VC"/>
+      <mode value="target"/>
+    </input>
+    <rule>
+      <name value="Set Bundle as credenital and version"/>
+      <source>
+        <context value="vc"/>
+        <element value="credentialSubject"/>
+        <variable value="cs"/>
+      </source>
+      <rule>
+        <name value="set version"/>
+        <source>
+          <context value="cs"/>
+          <variable value="cs"/>
+        </source>
+        <target>
+          <context value="cs"/>
+          <contextType value="variable"/>
+          <element value="fhirVersion"/>
+          <transform value="copy"/>
+          <parameter>
+            <valueString value="4.0.1"/>
+          </parameter>
+        </target>
+      </rule>
+      <rule>
+        <name value="set bundle"/>
+        <source>
+          <context value="cs"/>
+          <variable value="cs"/>
+        </source>
+        <target>
+          <context value="cs"/>
+          <contextType value="variable"/>
+          <element value="fhirBundle"/>
+          <transform value="copy"/>
+          <parameter>
+            <valueId value="bundle"/>
+          </parameter>
+        </target>
+      </rule>
+    </rule>
+  </group>
+</StructureMap>
