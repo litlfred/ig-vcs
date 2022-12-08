@@ -1,5 +1,5 @@
 {
-  "package": "fhir.who.smart-ig-empty",
+  "package": "fhir.litlfred.ig-vcs",
   "version": "0.2.1",
   "fhirVersion": "4.0.1",
   "jurisdiction": "001",

@@ -1,30 +1,32 @@
 ﻿smartigempty : Validation Results
 =========================================
 
-err = 16, warn = 7, info = 0
+err = 20, warn = 7, info = 0
 IG Publisher Version: 1.2.22
-Generated Thu Dec 08 13:13:03 UTC 2022. FHIR version 4.0.1 for fhir.who.smart-ig-empty#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-empty)
- Build Errors : 109 / 3 / 0
- /github/workspace/fsh-generated/resources/ImplementationGuide-fhir.who.smart-ig-empty : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-VerfiiableCredentialJWT : 2 / 0 / 1
+Generated Thu Dec 08 13:18:23 UTC 2022. FHIR version 4.0.1 for fhir.litlfred.ig-vcs#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-empty)
+ Build Errors : 125 / 3 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-fhir.litlfred.ig-vcs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-VerfiableCredentialJWT : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredential : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialBundle : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialEvidence : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialProof : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialRefreshService : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialStatus : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialSubject : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialSubjectBundle : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialTermsOfUse : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-verfiable-credential-type : 0 / 3 / 1
 </table>
 == n/a ==
-ERROR: /github/workspace/output/StructureDefinition-VerfiiableCredentialJWT-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-VerfiiableCredentialJWT-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-VerfiiableCredentialJWT-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-VerfiiableCredentialJWT.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-VerfiiableCredentialJWT.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-VerfiiableCredentialJWT.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-VerfiiableCredentialJWT.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-VerfiiableCredentialJWT.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerfiableCredentialJWT-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerfiableCredentialJWT-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerfiableCredentialJWT-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerfiableCredentialJWT.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerfiableCredentialJWT.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerfiableCredentialJWT.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerfiableCredentialJWT.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerfiableCredentialJWT.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredential-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredential-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredential-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
@@ -33,6 +35,14 @@ ERROR: /github/workspace/output/StructureDefinition-VerifiableCredential.profile
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredential.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredential.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredential.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialBundle-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialBundle-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialBundle-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialBundle.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialBundle.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialBundle.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialBundle.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialBundle.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialEvidence-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialEvidence-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialEvidence-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
@@ -73,6 +83,14 @@ ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialSubject.
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialSubject.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialSubject.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialSubject.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialSubjectBundle-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialSubjectBundle-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialSubjectBundle-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialSubjectBundle.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialSubjectBundle.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialSubjectBundle.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialSubjectBundle.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialSubjectBundle.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 126, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialTermsOfUse-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialTermsOfUse-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-VerifiableCredentialTermsOfUse-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 122, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
@@ -129,14 +147,17 @@ ERROR: /github/workspace/output/workflows.html#/html/body/div/div/nav/div/div/ul
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-== fsh-generated/resources/ImplementationGuide-fhir.who.smart-ig-empty.json ==
-WARNING: ImplementationGuide/fhir.who.smart-ig-empty: ImplementationGuide: Rule ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-== fsh-generated/resources/StructureDefinition-VerfiiableCredentialJWT.json ==
-ERROR: StructureDefinition.where(url = 'http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialJWT'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-VerfiiableCredentialJWT.json - the canonical URL (http://worldhealthorganization.github.io/smart-ig-empty/StructureDefinition/VerfiiableCredentialJWT) does not match the URL (http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialJWT)
-ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-VerfiiableCredentialJWT: URL Mismatch http://worldhealthorganization.github.io/smart-ig-empty/StructureDefinition/VerfiiableCredentialJWT vs http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialJWT
+== fsh-generated/resources/ImplementationGuide-fhir.litlfred.ig-vcs.json ==
+WARNING: ImplementationGuide/fhir.litlfred.ig-vcs: ImplementationGuide: Rule ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/StructureDefinition-VerfiableCredentialJWT.json ==
+ERROR: StructureDefinition.where(url = 'http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialJWT'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-VerfiableCredentialJWT.json - the canonical URL (http://worldhealthorganization.github.io/smart-ig-empty/StructureDefinition/VerfiableCredentialJWT) does not match the URL (http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialJWT)
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-VerfiableCredentialJWT: URL Mismatch http://worldhealthorganization.github.io/smart-ig-empty/StructureDefinition/VerfiableCredentialJWT vs http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialJWT
 == fsh-generated/resources/StructureDefinition-VerifiableCredential.json ==
 ERROR: StructureDefinition.where(url = 'http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredential'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredential.json - the canonical URL (http://worldhealthorganization.github.io/smart-ig-empty/StructureDefinition/VerifiableCredential) does not match the URL (http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredential)
 ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredential: URL Mismatch http://worldhealthorganization.github.io/smart-ig-empty/StructureDefinition/VerifiableCredential vs http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredential
+== fsh-generated/resources/StructureDefinition-VerifiableCredentialBundle.json ==
+ERROR: StructureDefinition.where(url = 'http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialBundle'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialBundle.json - the canonical URL (http://worldhealthorganization.github.io/smart-ig-empty/StructureDefinition/VerifiableCredentialBundle) does not match the URL (http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialBundle)
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialBundle: URL Mismatch http://worldhealthorganization.github.io/smart-ig-empty/StructureDefinition/VerifiableCredentialBundle vs http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialBundle
 == fsh-generated/resources/StructureDefinition-VerifiableCredentialEvidence.json ==
 ERROR: StructureDefinition.where(url = 'http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialEvidence'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialEvidence.json - the canonical URL (http://worldhealthorganization.github.io/smart-ig-empty/StructureDefinition/VerifiableCredentialEvidence) does not match the URL (http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialEvidence)
 ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialEvidence: URL Mismatch http://worldhealthorganization.github.io/smart-ig-empty/StructureDefinition/VerifiableCredentialEvidence vs http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialEvidence
@@ -152,6 +173,9 @@ ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableC
 == fsh-generated/resources/StructureDefinition-VerifiableCredentialSubject.json ==
 ERROR: StructureDefinition.where(url = 'http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialSubject'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialSubject.json - the canonical URL (http://worldhealthorganization.github.io/smart-ig-empty/StructureDefinition/VerifiableCredentialSubject) does not match the URL (http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialSubject)
 ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialSubject: URL Mismatch http://worldhealthorganization.github.io/smart-ig-empty/StructureDefinition/VerifiableCredentialSubject vs http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialSubject
+== fsh-generated/resources/StructureDefinition-VerifiableCredentialSubjectBundle.json ==
+ERROR: StructureDefinition.where(url = 'http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialSubjectBundle'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialSubjectBundle.json - the canonical URL (http://worldhealthorganization.github.io/smart-ig-empty/StructureDefinition/VerifiableCredentialSubjectBundle) does not match the URL (http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialSubjectBundle)
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialSubjectBundle: URL Mismatch http://worldhealthorganization.github.io/smart-ig-empty/StructureDefinition/VerifiableCredentialSubjectBundle vs http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialSubjectBundle
 == fsh-generated/resources/StructureDefinition-VerifiableCredentialTermsOfUse.json ==
 ERROR: StructureDefinition.where(url = 'http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialTermsOfUse'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialTermsOfUse.json - the canonical URL (http://worldhealthorganization.github.io/smart-ig-empty/StructureDefinition/VerifiableCredentialTermsOfUse) does not match the URL (http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialTermsOfUse)
 ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredentialTermsOfUse: URL Mismatch http://worldhealthorganization.github.io/smart-ig-empty/StructureDefinition/VerifiableCredentialTermsOfUse vs http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialTermsOfUse

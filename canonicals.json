@@ -7,6 +7,13 @@
     "name" : "VerifiableCredential"
   },
   {
+    "id" : "VerifiableCredentialBundle",
+    "type" : "StructureDefinition",
+    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialBundle",
+    "version" : "0.2.1",
+    "name" : "VerifiableCredentialBundle"
+  },
+  {
     "id" : "VerifiableCredentialEvidence",
     "type" : "StructureDefinition",
     "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialEvidence",
@@ -14,11 +21,11 @@
     "name" : "VerifiableCredentialEvidence"
   },
   {
-    "id" : "VerfiiableCredentialJWT",
+    "id" : "VerfiableCredentialJWT",
     "type" : "StructureDefinition",
     "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialJWT",
     "version" : "0.2.1",
-    "name" : "VerfiiableCredentialJWT"
+    "name" : "VerfiableCredentialJWT"
   },
   {
     "id" : "VerifiableCredentialProof",
@@ -49,6 +56,13 @@
     "name" : "VerifiableCredentialSubject"
   },
   {
+    "id" : "VerifiableCredentialSubjectBundle",
+    "type" : "StructureDefinition",
+    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialSubjectBundle",
+    "version" : "0.2.1",
+    "name" : "VerifiableCredentialSubjectBundle"
+  },
+  {
     "id" : "VerifiableCredentialTermsOfUse",
     "type" : "StructureDefinition",
     "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialTermsOfUse",
@@ -56,9 +70,9 @@
     "name" : "VerifiableCredentialTermsOfUse"
   },
   {
-    "id" : "fhir.who.smart-ig-empty",
+    "id" : "fhir.litlfred.ig-vcs",
     "type" : "ImplementationGuide",
-    "url" : "http://worldhealthorganization.github.io/smart-ig-empty/ImplementationGuide/fhir.who.smart-ig-empty",
+    "url" : "http://worldhealthorganization.github.io/smart-ig-empty/ImplementationGuide/fhir.litlfred.ig-vcs",
     "version" : "0.2.1",
     "name" : "smartigempty"
   },
