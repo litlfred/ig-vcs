@@ -3,7 +3,7 @@
   "name" : "smartigempty",
   "package-id" : "fhir.litlfred.ig-vcs",
   "ig-ver" : "0.2.1",
-  "date" : "Thu, 08 Dec, 2022 13:19:01 +0000",
+  "date" : "Fri, 09 Dec, 2022 07:59:59 +0000",
   "errs" : 25,
   "warnings" : 8,
   "hints" : 0,
