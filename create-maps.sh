@@ -16,13 +16,16 @@ HOST="https://test.ahdis.ch/matchbox/fhir"
 
 
 SKIP=2
-while getopts :ny FLAG ;  do
+while getopts :nyh: FLAG ;  do
     case "${FLAG}" in
         n)
 	    SKIP=0 ;
 	    ;;
         y)
 	    SKIP=1 ;
+	    ;;
+	h)
+	    HOST="$OPTARG" ; 
 	    ;;
     esac
 done
