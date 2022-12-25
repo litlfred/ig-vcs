@@ -172,10 +172,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <!-- ReleaseHeader --><p id="publish-box">WHO SMART Guideline: IG Template - Local Development build (v0.2.1). See the <a href="http://worldhealthorganization.github.io/smart-ig-empty/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>Community</h2>
   
-  <div>
-  <p>Sign up on <a href="https://chat.fhir.org/">chat.fhir.org</a> community and follow the stream who-smart-guidelines for questions, queries and chats related to WHO SMART Guidelines</p>
   
-  <p>WHO also hosts weekly calls on authoring and implementing WHO SMART Guidelines where participation is welcome. Please send an email at <a href="mailto:SMART@who.int?subject = SMART Guidelines Weekly Call">SMART@who.int</a> in order to get invited.</p>
+  
+  <div>
+  <p xmlns:ns0="http://www.w3.org/1999/xhtml">Sign up on <a xmlns:ns1="http://www.w3.org/1999/xhtml" href="https://chat.fhir.org/">chat.fhir.org</a> community and follow the stream who-smart-guidelines for questions, queries and chats related to WHO SMART Guidelines</p>
+  
+  <p xmlns:ns2="http://www.w3.org/1999/xhtml">WHO also hosts weekly calls on authoring and implementing WHO SMART Guidelines where participation is welcome. Please send an email at <a xmlns:ns3="http://www.w3.org/1999/xhtml" href="mailto:SMART@who.int?subject = SMART Guidelines Weekly Call">SMART@who.int</a> in order to get invited.</p>
 </div>
 </div>
         </div>    <!-- /inner-wrapper -->
@@ -199,16 +201,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package fhir.litlfred.ig-vcs#0.2.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Dec 9, 2022 07:59+0000">2022-12-09</span>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package fhir.litlfred.ig-vcs#0.2.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Dec 25, 2022 17:31+0000">2022-12-25</span>
           <br/>
-          <span style="color: var(--footer-highlight-text-color)"></span>
+          <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                   | <a style="color: var(--footer-hyperlink-text-color)" href="https://github.com/WorldHealthOrganization/smart-ig-empty/projects/1" target="_blank">Issues</a>
                 
                  | <a style="color: #81BEF7" href="http://worldhealthorganization.github.io/smart-ig-empty/history.html" target="_blank">Version History <img src="external.png" alt="external" style="vertical-align: baseline"/></a> |
                    <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | --> 
-          
+          </span>
         </p>
       </div>    <!-- /inner-wrapper -->
     </div>    <!-- /container -->
@@ -226,6 +228,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   
@@ -300,7 +304,7 @@ anchors.add()</script>
             
           if (id) { //To make sure the element has an id
             $(this).append(function () {
-              return $('<a></a>', {
+              return $('<a/>', {
                 id,
                 href: feedbackurl,
                 text: feedbacklabel+' ' ,
