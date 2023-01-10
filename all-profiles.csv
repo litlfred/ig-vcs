@@ -2,43 +2,75 @@
 "VerifiableCredentialBundle","VerifiableCredentialBundle","VerifiableCredentialBundle","","","",0,*,"","","","null {[]} {[]}
 ","Logical Model for Verifiable Credentials - FHIR Bundle","Logical Model for Verifiable Credentials - FHIR Bundle","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "VerifiableCredentialBundle","VerifiableCredentialBundle.context","VerifiableCredentialBundle.context","","","",1,*,"","","","uri {[]} {[]}
-","Context","Sets the context of the verifiable credential","","","","","","","","","",,,,,"",,,,"VerifiableCredential.context",1,*,"",""
+","Context","Sets the context of the verifiable credential","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.context",1,*,"",""
 "VerifiableCredentialBundle","VerifiableCredentialBundle.id","VerifiableCredentialBundle.id","","","",1,1,"","","","url {[]} {[]}
-","Identifier","The value of the id property MUST be a single URI. It is RECOMMENDED that the URI in the id be one which, if dereferenced, results in a document containing machine-readable information about the id.","","","","","","","","","",,,,,"",,,,"VerifiableCredential.id",1,1,"",""
+","Identifier","The value of the id property MUST be a single URI. It is RECOMMENDED that the URI in the id be one which, if dereferenced, results in a document containing machine-readable information about the id.","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.id",1,1,"",""
 "VerifiableCredentialBundle","VerifiableCredentialBundle.type","VerifiableCredentialBundle.type","","","",1,*,"","","","uri {[]} {[]}
-","Type","The value of the type property","","","","","","","","","",,,,,"",,,,"VerifiableCredential.type",1,*,"",""
-"VerifiableCredentialBundle","VerifiableCredentialBundle.credentialStatus","VerifiableCredentialBundle.credentialStatus","","","",0,*,"","","","http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialStatus {[]} {[]}
-","Verifiable Credential Status","Verifiable Credential Status","","","","","","","","","",,,,,"",,,,"VerifiableCredential.credentialStatus",0,*,"",""
-"VerifiableCredentialBundle","VerifiableCredentialBundle.credentialSubject","VerifiableCredentialBundle.credentialSubject","","","",1,*,"","","","http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialSubject {[]} {[]}
-","Verifiable Credential Subject","Verifiable Credential Subject","","","","","","","","","",,,,,"",,,,"VerifiableCredential.credentialSubject",1,*,"",""
+","Type","The value of the type property","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.type",1,*,"",""
+"VerifiableCredentialBundle","VerifiableCredentialBundle.credentialStatus","VerifiableCredentialBundle.credentialStatus","","","",0,*,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialStatus {[]} {[]}
+","Verifiable Credential Status","Verifiable Credential Status","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.credentialStatus",0,*,"",""
 "VerifiableCredentialBundle","VerifiableCredentialBundle.expirationDate","VerifiableCredentialBundle.expirationDate","","","",0,1,"","","","dateTime {[]} {[]}
-","Expiration Date","The date and time the credential ceases to be valid.","","","","","","","","","",,,,,"",,,,"VerifiableCredential.expirationDate",0,1,"",""
-"VerifiableCredentialBundle","VerifiableCredentialBundle.evidence","VerifiableCredentialBundle.evidence","","","",0,*,"","","","http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialEvidence {[]} {[]}
-","Evidence","Verifiable Credential Evidence","","","","","","","","","",,,,,"",,,,"VerifiableCredential.evidence",0,*,"",""
+","Expiration Date","The date and time the credential ceases to be valid.","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.expirationDate",0,1,"",""
+"VerifiableCredentialBundle","VerifiableCredentialBundle.evidence","VerifiableCredentialBundle.evidence","","","",0,*,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialEvidence {[]} {[]}
+","Evidence","Verifiable Credential Evidence","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.evidence",0,*,"",""
 "VerifiableCredentialBundle","VerifiableCredentialBundle.holder","VerifiableCredentialBundle.holder","","","",0,1,"","","","uri {[]} {[]}
-","Holder","The holder of the credential","","","","","","","","","",,,,,"",,,,"VerifiableCredential.holder",0,1,"",""
+","Holder","The holder of the credential","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.holder",0,1,"",""
 "VerifiableCredentialBundle","VerifiableCredentialBundle.issued","VerifiableCredentialBundle.issued","","","",0,1,"","","","dateTime {[]} {[]}
-","Issued","Issued","","","","","","","","","",,,,,"",,,,"VerifiableCredential.issued",0,1,"",""
+","Issued","Issued","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.issued",0,1,"",""
 "VerifiableCredentialBundle","VerifiableCredentialBundle.issuer","VerifiableCredentialBundle.issuer","","","",1,1,"","","","url {[]} {[]}
-","Issue","The entity that issued the credential","","","","","","","","","",,,,,"",,,,"VerifiableCredential.issuer",1,1,"",""
+","Issue","The entity that issued the credential","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.issuer",1,1,"",""
 "VerifiableCredentialBundle","VerifiableCredentialBundle.issuanceDate","VerifiableCredentialBundle.issuanceDate","","","",0,1,"","","","dateTime {[]} {[]}
-","Issuance Date","The date and time the credential becomes valid, which could be a date and time in the future. Note that this value represents the earliest point in time at which the information associated with the credentialSubject property becomes valid.","","","","","","","","","",,,,,"",,,,"VerifiableCredential.issuanceDate",0,1,"",""
-"VerifiableCredentialBundle","VerifiableCredentialBundle.proof","VerifiableCredentialBundle.proof","","","",1,*,"","","","http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialProof {[]} {[]}
-","Proof","One or more cryptographic proofs that can be used to detect tampering and verify the authorship","","","","","","","","","",,,,,"",,,,"VerifiableCredential.proof",1,*,"",""
-"VerifiableCredentialBundle","VerifiableCredentialBundle.refreshService","VerifiableCredentialBundle.refreshService","","","",0,*,"","","","http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialRefreshService {[]} {[]}
-","Refresh Service","Refresh Service","","","","","","","","","",,,,,"",,,,"VerifiableCredential.refreshService",0,*,"",""
-"VerifiableCredentialBundle","VerifiableCredentialBundle.termsofUse","VerifiableCredentialBundle.termsofUse","","","",0,1,"","","","http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialTermsOfUse {[]} {[]}
-","Terms of Use","Terms of Use","","","","","","","","","",,,,,"",,,,"VerifiableCredential.termsofUse",0,1,"",""
+","Issuance Date","The date and time the credential becomes valid, which could be a date and time in the future. Note that this value represents the earliest point in time at which the information associated with the credentialSubject property becomes valid.","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.issuanceDate",0,1,"",""
+"VerifiableCredentialBundle","VerifiableCredentialBundle.proof","VerifiableCredentialBundle.proof","","","",1,*,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialProof {[]} {[]}
+","Proof","One or more cryptographic proofs that can be used to detect tampering and verify the authorship","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.proof",1,*,"",""
+"VerifiableCredentialBundle","VerifiableCredentialBundle.refreshService","VerifiableCredentialBundle.refreshService","","","",0,*,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialRefreshService {[]} {[]}
+","Refresh Service","Refresh Service","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.refreshService",0,*,"",""
+"VerifiableCredentialBundle","VerifiableCredentialBundle.termsofUse","VerifiableCredentialBundle.termsofUse","","","",0,1,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialTermsOfUse {[]} {[]}
+","Terms of Use","Terms of Use","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.termsofUse",0,1,"",""
 "VerifiableCredentialBundle","VerifiableCredentialBundle.validFrom","VerifiableCredentialBundle.validFrom","","","",0,1,"","","","dateTime {[]} {[]}
-","Valid From","Valid From","","","","","","","","","",,,,,"",,,,"VerifiableCredential.validFrom",0,1,"",""
+","Valid From","Valid From","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.validFrom",0,1,"",""
 "VerifiableCredentialBundle","VerifiableCredentialBundle.validUntil","VerifiableCredentialBundle.validUntil","","","",0,1,"","","","dateTime {[]} {[]}
-","Valid Until","Valid Until","","","","","","","","","",,,,,"",,,,"VerifiableCredential.validUntil",0,1,"",""
+","Valid Until","Valid Until","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.validUntil",0,1,"",""
+"VerifiableCredentialBundle","VerifiableCredentialBundle.credentialSubject","VerifiableCredentialBundle.credentialSubject","","","",1,*,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialSubjectBundle {[]} {[]}
+","Verifiable Credential Subject","Verifiable Credential Subject","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBundle.credentialSubject",1,*,"",""
 "VerfiableCredentialJWT","VerifiableCredentialJWT","VerifiableCredentialJWT","","","",0,*,"","","","null {[]} {[]}
 ","Logical Model for Verifiable Credentials as JWT","Logical Model for Verifiable Credentials as JWT","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "VerfiableCredentialJWT","VerifiableCredentialJWT.context","VerifiableCredentialJWT.context","","","",1,*,"","","Y","url {[]} {[]}
 ","Context","Sets the context of the verifiable credential","","","","","","","","","",,,,,"",,,,"VerifiableCredentialJWT.context",1,*,"",""
 "VerfiableCredentialJWT","VerifiableCredentialJWT.iss","VerifiableCredentialJWT.iss","","","",1,1,"","","Y","url {[]} {[]}
 ","Issuer","The entity that issued the credential","","","","","","","","","",,,,,"",,,,"VerifiableCredentialJWT.iss",1,1,"",""
+"VerifiableCredentialBase","VerifiableCredentialBase","VerifiableCredentialBase","","","",0,*,"","","","null {[]} {[]}
+","Base Logical Model for Verifiable Credentials","Base Logical Model for Verifiable Credentials. Omits the credentialSubject.  Non-abstract should be instantiated for each credentialSubject schema","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"VerifiableCredentialBase","VerifiableCredentialBase.context","VerifiableCredentialBase.context","","","",1,*,"","","","uri {[]} {[]}
+","Context","Sets the context of the verifiable credential","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.context",1,*,"",""
+"VerifiableCredentialBase","VerifiableCredentialBase.id","VerifiableCredentialBase.id","","","",1,1,"","","","url {[]} {[]}
+","Identifier","The value of the id property MUST be a single URI. It is RECOMMENDED that the URI in the id be one which, if dereferenced, results in a document containing machine-readable information about the id.","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.id",1,1,"",""
+"VerifiableCredentialBase","VerifiableCredentialBase.type","VerifiableCredentialBase.type","","","",1,*,"","","","uri {[]} {[]}
+","Type","The value of the type property","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.type",1,*,"",""
+"VerifiableCredentialBase","VerifiableCredentialBase.credentialStatus","VerifiableCredentialBase.credentialStatus","","","",0,*,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialStatus {[]} {[]}
+","Verifiable Credential Status","Verifiable Credential Status","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.credentialStatus",0,*,"",""
+"VerifiableCredentialBase","VerifiableCredentialBase.expirationDate","VerifiableCredentialBase.expirationDate","","","",0,1,"","","","dateTime {[]} {[]}
+","Expiration Date","The date and time the credential ceases to be valid.","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.expirationDate",0,1,"",""
+"VerifiableCredentialBase","VerifiableCredentialBase.evidence","VerifiableCredentialBase.evidence","","","",0,*,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialEvidence {[]} {[]}
+","Evidence","Verifiable Credential Evidence","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.evidence",0,*,"",""
+"VerifiableCredentialBase","VerifiableCredentialBase.holder","VerifiableCredentialBase.holder","","","",0,1,"","","","uri {[]} {[]}
+","Holder","The holder of the credential","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.holder",0,1,"",""
+"VerifiableCredentialBase","VerifiableCredentialBase.issued","VerifiableCredentialBase.issued","","","",0,1,"","","","dateTime {[]} {[]}
+","Issued","Issued","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.issued",0,1,"",""
+"VerifiableCredentialBase","VerifiableCredentialBase.issuer","VerifiableCredentialBase.issuer","","","",1,1,"","","","url {[]} {[]}
+","Issue","The entity that issued the credential","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.issuer",1,1,"",""
+"VerifiableCredentialBase","VerifiableCredentialBase.issuanceDate","VerifiableCredentialBase.issuanceDate","","","",0,1,"","","","dateTime {[]} {[]}
+","Issuance Date","The date and time the credential becomes valid, which could be a date and time in the future. Note that this value represents the earliest point in time at which the information associated with the credentialSubject property becomes valid.","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.issuanceDate",0,1,"",""
+"VerifiableCredentialBase","VerifiableCredentialBase.proof","VerifiableCredentialBase.proof","","","",1,*,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialProof {[]} {[]}
+","Proof","One or more cryptographic proofs that can be used to detect tampering and verify the authorship","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.proof",1,*,"",""
+"VerifiableCredentialBase","VerifiableCredentialBase.refreshService","VerifiableCredentialBase.refreshService","","","",0,*,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialRefreshService {[]} {[]}
+","Refresh Service","Refresh Service","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.refreshService",0,*,"",""
+"VerifiableCredentialBase","VerifiableCredentialBase.termsofUse","VerifiableCredentialBase.termsofUse","","","",0,1,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialTermsOfUse {[]} {[]}
+","Terms of Use","Terms of Use","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.termsofUse",0,1,"",""
+"VerifiableCredentialBase","VerifiableCredentialBase.validFrom","VerifiableCredentialBase.validFrom","","","",0,1,"","","","dateTime {[]} {[]}
+","Valid From","Valid From","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.validFrom",0,1,"",""
+"VerifiableCredentialBase","VerifiableCredentialBase.validUntil","VerifiableCredentialBase.validUntil","","","",0,1,"","","","dateTime {[]} {[]}
+","Valid Until","Valid Until","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.validUntil",0,1,"",""
 "VerifiableCredentialRefreshService","VerifiableCredentialRefreshService","VerifiableCredentialRefreshService","","","",0,*,"","","","null {[]} {[]}
 ","Logical Model for Verifiable Refresh Service","Logical Model for Verifiable Refresh Service","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "VerifiableCredentialRefreshService","VerifiableCredentialRefreshService.id","VerifiableCredentialRefreshService.id","","","",1,1,"","","","uri {[]} {[]}
@@ -58,37 +90,37 @@
 "VerifiableCredential","VerifiableCredential","VerifiableCredential","","","",0,*,"","","","null {[]} {[]}
 ","Logical Model for Verifiable Credentials","Logical Model for Verifiable Credentials","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "VerifiableCredential","VerifiableCredential.context","VerifiableCredential.context","","","",1,*,"","","","uri {[]} {[]}
-","Context","Sets the context of the verifiable credential","","","","","","","","","",,,,,"",,,,"VerifiableCredential.context",1,*,"",""
+","Context","Sets the context of the verifiable credential","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.context",1,*,"",""
 "VerifiableCredential","VerifiableCredential.id","VerifiableCredential.id","","","",1,1,"","","","url {[]} {[]}
-","Identifier","The value of the id property MUST be a single URI. It is RECOMMENDED that the URI in the id be one which, if dereferenced, results in a document containing machine-readable information about the id.","","","","","","","","","",,,,,"",,,,"VerifiableCredential.id",1,1,"",""
+","Identifier","The value of the id property MUST be a single URI. It is RECOMMENDED that the URI in the id be one which, if dereferenced, results in a document containing machine-readable information about the id.","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.id",1,1,"",""
 "VerifiableCredential","VerifiableCredential.type","VerifiableCredential.type","","","",1,*,"","","","uri {[]} {[]}
-","Type","The value of the type property","","","","","","","","","",,,,,"",,,,"VerifiableCredential.type",1,*,"",""
-"VerifiableCredential","VerifiableCredential.credentialStatus","VerifiableCredential.credentialStatus","","","",0,*,"","","","http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialStatus {[]} {[]}
-","Verifiable Credential Status","Verifiable Credential Status","","","","","","","","","",,,,,"",,,,"VerifiableCredential.credentialStatus",0,*,"",""
-"VerifiableCredential","VerifiableCredential.credentialSubject","VerifiableCredential.credentialSubject","","","",1,*,"","","","http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialSubject {[]} {[]}
-","Verifiable Credential Subject","Verifiable Credential Subject","","","","","","","","","",,,,,"",,,,"VerifiableCredential.credentialSubject",1,*,"",""
+","Type","The value of the type property","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.type",1,*,"",""
+"VerifiableCredential","VerifiableCredential.credentialStatus","VerifiableCredential.credentialStatus","","","",0,*,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialStatus {[]} {[]}
+","Verifiable Credential Status","Verifiable Credential Status","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.credentialStatus",0,*,"",""
 "VerifiableCredential","VerifiableCredential.expirationDate","VerifiableCredential.expirationDate","","","",0,1,"","","","dateTime {[]} {[]}
-","Expiration Date","The date and time the credential ceases to be valid.","","","","","","","","","",,,,,"",,,,"VerifiableCredential.expirationDate",0,1,"",""
-"VerifiableCredential","VerifiableCredential.evidence","VerifiableCredential.evidence","","","",0,*,"","","","http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialEvidence {[]} {[]}
-","Evidence","Verifiable Credential Evidence","","","","","","","","","",,,,,"",,,,"VerifiableCredential.evidence",0,*,"",""
+","Expiration Date","The date and time the credential ceases to be valid.","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.expirationDate",0,1,"",""
+"VerifiableCredential","VerifiableCredential.evidence","VerifiableCredential.evidence","","","",0,*,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialEvidence {[]} {[]}
+","Evidence","Verifiable Credential Evidence","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.evidence",0,*,"",""
 "VerifiableCredential","VerifiableCredential.holder","VerifiableCredential.holder","","","",0,1,"","","","uri {[]} {[]}
-","Holder","The holder of the credential","","","","","","","","","",,,,,"",,,,"VerifiableCredential.holder",0,1,"",""
+","Holder","The holder of the credential","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.holder",0,1,"",""
 "VerifiableCredential","VerifiableCredential.issued","VerifiableCredential.issued","","","",0,1,"","","","dateTime {[]} {[]}
-","Issued","Issued","","","","","","","","","",,,,,"",,,,"VerifiableCredential.issued",0,1,"",""
+","Issued","Issued","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.issued",0,1,"",""
 "VerifiableCredential","VerifiableCredential.issuer","VerifiableCredential.issuer","","","",1,1,"","","","url {[]} {[]}
-","Issue","The entity that issued the credential","","","","","","","","","",,,,,"",,,,"VerifiableCredential.issuer",1,1,"",""
+","Issue","The entity that issued the credential","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.issuer",1,1,"",""
 "VerifiableCredential","VerifiableCredential.issuanceDate","VerifiableCredential.issuanceDate","","","",0,1,"","","","dateTime {[]} {[]}
-","Issuance Date","The date and time the credential becomes valid, which could be a date and time in the future. Note that this value represents the earliest point in time at which the information associated with the credentialSubject property becomes valid.","","","","","","","","","",,,,,"",,,,"VerifiableCredential.issuanceDate",0,1,"",""
-"VerifiableCredential","VerifiableCredential.proof","VerifiableCredential.proof","","","",1,*,"","","","http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialProof {[]} {[]}
-","Proof","One or more cryptographic proofs that can be used to detect tampering and verify the authorship","","","","","","","","","",,,,,"",,,,"VerifiableCredential.proof",1,*,"",""
-"VerifiableCredential","VerifiableCredential.refreshService","VerifiableCredential.refreshService","","","",0,*,"","","","http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialRefreshService {[]} {[]}
-","Refresh Service","Refresh Service","","","","","","","","","",,,,,"",,,,"VerifiableCredential.refreshService",0,*,"",""
-"VerifiableCredential","VerifiableCredential.termsofUse","VerifiableCredential.termsofUse","","","",0,1,"","","","http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialTermsOfUse {[]} {[]}
-","Terms of Use","Terms of Use","","","","","","","","","",,,,,"",,,,"VerifiableCredential.termsofUse",0,1,"",""
+","Issuance Date","The date and time the credential becomes valid, which could be a date and time in the future. Note that this value represents the earliest point in time at which the information associated with the credentialSubject property becomes valid.","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.issuanceDate",0,1,"",""
+"VerifiableCredential","VerifiableCredential.proof","VerifiableCredential.proof","","","",1,*,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialProof {[]} {[]}
+","Proof","One or more cryptographic proofs that can be used to detect tampering and verify the authorship","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.proof",1,*,"",""
+"VerifiableCredential","VerifiableCredential.refreshService","VerifiableCredential.refreshService","","","",0,*,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialRefreshService {[]} {[]}
+","Refresh Service","Refresh Service","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.refreshService",0,*,"",""
+"VerifiableCredential","VerifiableCredential.termsofUse","VerifiableCredential.termsofUse","","","",0,1,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialTermsOfUse {[]} {[]}
+","Terms of Use","Terms of Use","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.termsofUse",0,1,"",""
 "VerifiableCredential","VerifiableCredential.validFrom","VerifiableCredential.validFrom","","","",0,1,"","","","dateTime {[]} {[]}
-","Valid From","Valid From","","","","","","","","","",,,,,"",,,,"VerifiableCredential.validFrom",0,1,"",""
+","Valid From","Valid From","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.validFrom",0,1,"",""
 "VerifiableCredential","VerifiableCredential.validUntil","VerifiableCredential.validUntil","","","",0,1,"","","","dateTime {[]} {[]}
-","Valid Until","Valid Until","","","","","","","","","",,,,,"",,,,"VerifiableCredential.validUntil",0,1,"",""
+","Valid Until","Valid Until","","","","","","","","","",,,,,"",,,,"VerifiableCredentialBase.validUntil",0,1,"",""
+"VerifiableCredential","VerifiableCredential.credentialSubject","VerifiableCredential.credentialSubject","","","",1,*,"","","","http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialSubject {[]} {[]}
+","Verifiable Credential Subject","Verifiable Credential Subject","","","","","","","","","",,,,,"",,,,"VerifiableCredential.credentialSubject",1,*,"",""
 "VerifiableCredentialSubject","VerifiableCredentialSubject","VerifiableCredentialSubject","","","",0,*,"","","","null {[]} {[]}
 ","Logical Model for Verifiable Credential Subject","Logical Model for Verifiable Credential Subject","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "VerifiableCredentialSubject","VerifiableCredentialSubject.id","VerifiableCredentialSubject.id","","","",0,1,"","","","uri {[]} {[]}
@@ -100,7 +132,7 @@
 "VerifiableCredentialSubjectBundle","VerifiableCredentialSubjectBundle.fhirVersion","VerifiableCredentialSubjectBundle.fhirVersion","","","",1,1,"","","","string {[]} {[]}
 ","FHIR Version","FHIR Version","","","","","","","","","",,,,,"",,,,"VerifiableCredentialSubjectBundle.fhirVersion",1,1,"",""
 "VerifiableCredentialSubjectBundle","VerifiableCredentialSubjectBundle.fhirBundle","VerifiableCredentialSubjectBundle.fhirBundle","","","",1,1,"","","","Bundle {[]} {[]}
-","FHIR Bundle","FHIB Bundle","","","","","","","","","",,,,,"",,,,"VerifiableCredentialSubjectBundle.fhirBundle",1,1,"",""
+","FHIR Bundle","FHIR Bundle","","","","","","","","","",,,,,"",,,,"VerifiableCredentialSubjectBundle.fhirBundle",1,1,"",""
 "VerifiableCredentialStatus","VerifiableCredentialStatus","VerifiableCredentialStatus","","","",0,*,"","","","null {[]} {[]}
 ","Logical Model for Verifiable Credential Status","Logical Model for Verifiable Credential Status","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "VerifiableCredentialStatus","VerifiableCredentialStatus.id","VerifiableCredentialStatus.id","","","",1,1,"","","","uri {[]} {[]}
