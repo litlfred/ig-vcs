@@ -1,5 +1,6 @@
 "Profile","Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
-"VerifiableCredentialBundle","VerifiableCredentialBundle","VerifiableCredentialBundle","","","",0,*,"","","","","Logical Model for Verifiable Credentials - FHIR Bundle","Logical Model for Verifiable Credentials - FHIR Bundle","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"VerifiableCredentialBundle","VerifiableCredentialBundle","VerifiableCredentialBundle","","","",0,*,"","","","null {[]} {[]}
+","Logical Model for Verifiable Credentials - FHIR Bundle","Logical Model for Verifiable Credentials - FHIR Bundle","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "VerifiableCredentialBundle","VerifiableCredentialBundle.context","VerifiableCredentialBundle.context","","","",1,*,"","","","uri {[]} {[]}
 ","Context","Sets the context of the verifiable credential","","","","","","","","","",,,,,"",,,,"VerifiableCredential.context",1,*,"",""
 "VerifiableCredentialBundle","VerifiableCredentialBundle.id","VerifiableCredentialBundle.id","","","",1,1,"","","","url {[]} {[]}
@@ -32,25 +33,30 @@
 ","Valid From","Valid From","","","","","","","","","",,,,,"",,,,"VerifiableCredential.validFrom",0,1,"",""
 "VerifiableCredentialBundle","VerifiableCredentialBundle.validUntil","VerifiableCredentialBundle.validUntil","","","",0,1,"","","","dateTime {[]} {[]}
 ","Valid Until","Valid Until","","","","","","","","","",,,,,"",,,,"VerifiableCredential.validUntil",0,1,"",""
-"VerfiableCredentialJWT","VerifiableCredentialJWT","VerifiableCredentialJWT","","","",0,*,"","","","","Logical Model for Verifiable Credentials as JWT","Logical Model for Verifiable Credentials as JWT","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"VerfiableCredentialJWT","VerifiableCredentialJWT","VerifiableCredentialJWT","","","",0,*,"","","","null {[]} {[]}
+","Logical Model for Verifiable Credentials as JWT","Logical Model for Verifiable Credentials as JWT","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "VerfiableCredentialJWT","VerifiableCredentialJWT.context","VerifiableCredentialJWT.context","","","",1,*,"","","Y","url {[]} {[]}
 ","Context","Sets the context of the verifiable credential","","","","","","","","","",,,,,"",,,,"VerifiableCredentialJWT.context",1,*,"",""
 "VerfiableCredentialJWT","VerifiableCredentialJWT.iss","VerifiableCredentialJWT.iss","","","",1,1,"","","Y","url {[]} {[]}
 ","Issuer","The entity that issued the credential","","","","","","","","","",,,,,"",,,,"VerifiableCredentialJWT.iss",1,1,"",""
-"VerifiableCredentialRefreshService","VerifiableCredentialRefreshService","VerifiableCredentialRefreshService","","","",0,*,"","","","","Logical Model for Verifiable Refresh Service","Logical Model for Verifiable Refresh Service","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"VerifiableCredentialRefreshService","VerifiableCredentialRefreshService","VerifiableCredentialRefreshService","","","",0,*,"","","","null {[]} {[]}
+","Logical Model for Verifiable Refresh Service","Logical Model for Verifiable Refresh Service","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "VerifiableCredentialRefreshService","VerifiableCredentialRefreshService.id","VerifiableCredentialRefreshService.id","","","",1,1,"","","","uri {[]} {[]}
 ","Identifier","Identifier for the status","","","","","","","","","",,,,,"",,,,"VerifiableCredentialRefreshService.id",1,1,"",""
 "VerifiableCredentialRefreshService","VerifiableCredentialRefreshService.type","VerifiableCredentialRefreshService.type","","","",1,1,"","","","code {[]} {[]}
 ","Type","Refresh Service Type","","","","","","","","","",,,,,"",,,,"VerifiableCredentialRefreshService.type",1,1,"",""
-"VerifiableCredentialProof","VerifiableCredentialProof","VerifiableCredentialProof","","","",0,*,"","","","","Logical Model for Verifiable Credential Proof","Logical Model for Verifiable Credential Proof","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"VerifiableCredentialProof","VerifiableCredentialProof","VerifiableCredentialProof","","","",0,*,"","","","null {[]} {[]}
+","Logical Model for Verifiable Credential Proof","Logical Model for Verifiable Credential Proof","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "VerifiableCredentialProof","VerifiableCredentialProof.type","VerifiableCredentialProof.type","","","",1,1,"","","","string {[]} {[]}
 ","Type","Type of proof","","","","","","","","","",,,,,"",,,,"VerifiableCredentialProof.type",1,1,"",""
-"VerifiableCredentialTermsOfUse","VerifiableCredentialTermsOfUse","VerifiableCredentialTermsOfUse","","","",0,*,"","","","","Logical Model for Verifiable Credential Terms of Use","Logical Model for Verifiable Credential Terms of Use","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"VerifiableCredentialTermsOfUse","VerifiableCredentialTermsOfUse","VerifiableCredentialTermsOfUse","","","",0,*,"","","","null {[]} {[]}
+","Logical Model for Verifiable Credential Terms of Use","Logical Model for Verifiable Credential Terms of Use","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "VerifiableCredentialTermsOfUse","VerifiableCredentialTermsOfUse.id","VerifiableCredentialTermsOfUse.id","","","",1,1,"","","","uri {[]} {[]}
 ","Identifier","Identifier for the type","","","","","","","","","",,,,,"",,,,"VerifiableCredentialTermsOfUse.id",1,1,"",""
 "VerifiableCredentialTermsOfUse","VerifiableCredentialTermsOfUse.type","VerifiableCredentialTermsOfUse.type","","","",1,1,"","","","code {[]} {[]}
 ","Type","Status Type","","","","","","","","","",,,,,"",,,,"VerifiableCredentialTermsOfUse.type",1,1,"",""
-"VerifiableCredential","VerifiableCredential","VerifiableCredential","","","",0,*,"","","","","Logical Model for Verifiable Credentials","Logical Model for Verifiable Credentials","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"VerifiableCredential","VerifiableCredential","VerifiableCredential","","","",0,*,"","","","null {[]} {[]}
+","Logical Model for Verifiable Credentials","Logical Model for Verifiable Credentials","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "VerifiableCredential","VerifiableCredential.context","VerifiableCredential.context","","","",1,*,"","","","uri {[]} {[]}
 ","Context","Sets the context of the verifiable credential","","","","","","","","","",,,,,"",,,,"VerifiableCredential.context",1,*,"",""
 "VerifiableCredential","VerifiableCredential.id","VerifiableCredential.id","","","",1,1,"","","","url {[]} {[]}
@@ -83,22 +89,26 @@
 ","Valid From","Valid From","","","","","","","","","",,,,,"",,,,"VerifiableCredential.validFrom",0,1,"",""
 "VerifiableCredential","VerifiableCredential.validUntil","VerifiableCredential.validUntil","","","",0,1,"","","","dateTime {[]} {[]}
 ","Valid Until","Valid Until","","","","","","","","","",,,,,"",,,,"VerifiableCredential.validUntil",0,1,"",""
-"VerifiableCredentialSubject","VerifiableCredentialSubject","VerifiableCredentialSubject","","","",0,*,"","","","","Logical Model for Verifiable Credential Subject","Logical Model for Verifiable Credential Subject","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"VerifiableCredentialSubject","VerifiableCredentialSubject","VerifiableCredentialSubject","","","",0,*,"","","","null {[]} {[]}
+","Logical Model for Verifiable Credential Subject","Logical Model for Verifiable Credential Subject","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "VerifiableCredentialSubject","VerifiableCredentialSubject.id","VerifiableCredentialSubject.id","","","",0,1,"","","","uri {[]} {[]}
 ","Identifier","Identifier for the subject","","","","","","","","","",,,,,"",,,,"VerifiableCredentialSubject.id",0,1,"",""
-"VerifiableCredentialSubjectBundle","VerifiableCredentialSubjectBundle","VerifiableCredentialSubjectBundle","","","",0,*,"","","","","Logical Model for Verifiable Credential Subject - FHIR Bundle","Logical Model for Verifiable Credential Subject - FHIR Bundle","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"VerifiableCredentialSubjectBundle","VerifiableCredentialSubjectBundle","VerifiableCredentialSubjectBundle","","","",0,*,"","","","null {[]} {[]}
+","Logical Model for Verifiable Credential Subject - FHIR Bundle","Logical Model for Verifiable Credential Subject - FHIR Bundle","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "VerifiableCredentialSubjectBundle","VerifiableCredentialSubjectBundle.id","VerifiableCredentialSubjectBundle.id","","","",0,1,"","","","uri {[]} {[]}
 ","Identifier","Identifier for the subject","","","","","","","","","",,,,,"",,,,"VerifiableCredentialSubject.id",0,1,"",""
 "VerifiableCredentialSubjectBundle","VerifiableCredentialSubjectBundle.fhirVersion","VerifiableCredentialSubjectBundle.fhirVersion","","","",1,1,"","","","string {[]} {[]}
 ","FHIR Version","FHIR Version","","","","","","","","","",,,,,"",,,,"VerifiableCredentialSubjectBundle.fhirVersion",1,1,"",""
 "VerifiableCredentialSubjectBundle","VerifiableCredentialSubjectBundle.fhirBundle","VerifiableCredentialSubjectBundle.fhirBundle","","","",1,1,"","","","Bundle {[]} {[]}
 ","FHIR Bundle","FHIB Bundle","","","","","","","","","",,,,,"",,,,"VerifiableCredentialSubjectBundle.fhirBundle",1,1,"",""
-"VerifiableCredentialStatus","VerifiableCredentialStatus","VerifiableCredentialStatus","","","",0,*,"","","","","Logical Model for Verifiable Credential Status","Logical Model for Verifiable Credential Status","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"VerifiableCredentialStatus","VerifiableCredentialStatus","VerifiableCredentialStatus","","","",0,*,"","","","null {[]} {[]}
+","Logical Model for Verifiable Credential Status","Logical Model for Verifiable Credential Status","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "VerifiableCredentialStatus","VerifiableCredentialStatus.id","VerifiableCredentialStatus.id","","","",1,1,"","","","uri {[]} {[]}
 ","Identifier","Identifier for the status","","","","","","","","","",,,,,"",,,,"VerifiableCredentialStatus.id",1,1,"",""
 "VerifiableCredentialStatus","VerifiableCredentialStatus.type","VerifiableCredentialStatus.type","","","",1,1,"","","","code {[]} {[]}
 ","Type","Status Type","","","","","","","","","",,,,,"",,,,"VerifiableCredentialStatus.type",1,1,"",""
-"VerifiableCredentialEvidence","VerifiableCredentialEvidence","VerifiableCredentialEvidence","","","",0,*,"","","","","Logical Model for Verifiable Credential Evidence","Logical Model for Verifiable Credential Evidence","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"VerifiableCredentialEvidence","VerifiableCredentialEvidence","VerifiableCredentialEvidence","","","",0,*,"","","","null {[]} {[]}
+","Logical Model for Verifiable Credential Evidence","Logical Model for Verifiable Credential Evidence","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "VerifiableCredentialEvidence","VerifiableCredentialEvidence.id","VerifiableCredentialEvidence.id","","","",0,1,"","","","url {[]} {[]}
 ","Identifier","URL that points to where more information about this instance of evidence can be found","","","","","","","","","",,,,,"",,,,"VerifiableCredentialEvidence.id",0,1,"",""
 "VerifiableCredentialEvidence","VerifiableCredentialEvidence.type","VerifiableCredentialEvidence.type","","","",1,1,"","","","string {[]} {[]}

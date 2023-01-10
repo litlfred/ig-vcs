@@ -981,6 +981,15 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "support.html"
+        }],
+        "nameUrl" : "support.html",
+        "title" : "Support",
+        "generation" : "html"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "testing.html"
         }],
         "nameUrl" : "testing.html",

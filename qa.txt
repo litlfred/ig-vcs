@@ -2,9 +2,9 @@
 =========================================
 
 err = 20, warn = 7, info = 0
-IG Publisher Version: 1.2.25 Out of date - current version is ?pub-ver-1?
-Generated Sun Dec 25 17:32:05 UTC 2022. FHIR version 4.0.1 for fhir.litlfred.ig-vcs#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-empty)
- Build Errors : 136 / 3 / 0
+IG Publisher Version: 1.2.26
+Generated Tue Jan 10 10:47:14 UTC 2023. FHIR version 4.0.1 for fhir.litlfred.ig-vcs#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-empty)
+ Build Errors : 137 / 3 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-fhir.litlfred.ig-vcs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-VerfiableCredentialJWT : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-VerifiableCredential : 2 / 0 / 1
@@ -150,6 +150,7 @@ ERROR: /github/workspace/output/reference_implementation.html#/html/body/div/div
 ERROR: /github/workspace/output/references.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/requirements.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/security_privacy.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
+ERROR: /github/workspace/output/support.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
 ERROR: /github/workspace/output/transactions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 9: The link 'sequence_diagram.html' for "Sequence Diagram" cannot be resolved
