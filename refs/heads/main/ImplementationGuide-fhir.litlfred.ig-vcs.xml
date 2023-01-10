@@ -447,6 +447,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VerifiableCredentialBase"/>
+      </reference>
+      <name value="Base Logical Model for Verifiable Credentials"/>
+      <description value="Base Logical Model for Verifiable Credentials. Omits the credentialSubject.  Non-abstract should be instantiated for each credentialSubject schema"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>

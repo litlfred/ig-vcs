@@ -2,70 +2,77 @@
   {
     "id" : "VerifiableCredential",
     "type" : "StructureDefinition",
-    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredential",
+    "url" : "http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredential",
     "version" : "0.2.1",
     "name" : "VerifiableCredential"
   },
   {
+    "id" : "VerifiableCredentialBase",
+    "type" : "StructureDefinition",
+    "url" : "http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialBase",
+    "version" : "0.2.1",
+    "name" : "VerifiableCredentialBase"
+  },
+  {
     "id" : "VerifiableCredentialBundle",
     "type" : "StructureDefinition",
-    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialBundle",
+    "url" : "http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialBundle",
     "version" : "0.2.1",
     "name" : "VerifiableCredentialBundle"
   },
   {
     "id" : "VerifiableCredentialEvidence",
     "type" : "StructureDefinition",
-    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialEvidence",
+    "url" : "http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialEvidence",
     "version" : "0.2.1",
     "name" : "VerifiableCredentialEvidence"
   },
   {
     "id" : "VerfiableCredentialJWT",
     "type" : "StructureDefinition",
-    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialJWT",
+    "url" : "http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialJWT",
     "version" : "0.2.1",
     "name" : "VerfiableCredentialJWT"
   },
   {
     "id" : "VerifiableCredentialProof",
     "type" : "StructureDefinition",
-    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialProof",
+    "url" : "http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialProof",
     "version" : "0.2.1",
     "name" : "VerifiableCredentialProof"
   },
   {
     "id" : "VerifiableCredentialRefreshService",
     "type" : "StructureDefinition",
-    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialRefreshService",
+    "url" : "http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialRefreshService",
     "version" : "0.2.1",
     "name" : "VerifiableCredentialRefreshService"
   },
   {
     "id" : "VerifiableCredentialStatus",
     "type" : "StructureDefinition",
-    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialStatus",
+    "url" : "http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialStatus",
     "version" : "0.2.1",
     "name" : "VerifiableCredentialStatus"
   },
   {
     "id" : "VerifiableCredentialSubject",
     "type" : "StructureDefinition",
-    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialSubject",
+    "url" : "http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialSubject",
     "version" : "0.2.1",
     "name" : "VerifiableCredentialSubject"
   },
   {
     "id" : "VerifiableCredentialSubjectBundle",
     "type" : "StructureDefinition",
-    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialSubjectBundle",
+    "url" : "http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialSubjectBundle",
     "version" : "0.2.1",
     "name" : "VerifiableCredentialSubjectBundle"
   },
   {
     "id" : "VerifiableCredentialTermsOfUse",
     "type" : "StructureDefinition",
-    "url" : "http://litlfred.github.io/iv-vcs/StructureDefinition/VerifiableCredentialTermsOfUse",
+    "url" : "http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialTermsOfUse",
     "version" : "0.2.1",
     "name" : "VerifiableCredentialTermsOfUse"
   },
