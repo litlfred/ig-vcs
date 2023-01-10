@@ -793,6 +793,14 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="support.html"/>
+        </extension>
+        <nameUrl value="support.html"/>
+        <title value="Support"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="testing.html"/>
         </extension>
         <nameUrl value="testing.html"/>

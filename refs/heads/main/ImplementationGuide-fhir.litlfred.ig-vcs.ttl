@@ -1105,13 +1105,23 @@
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+           fhir:Extension.valueUrl [ fhir:value "support.html" ]
+         ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "support.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Support" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+       ], [
+         fhir:index 31;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
            fhir:Extension.valueUrl [ fhir:value "testing.html" ]
          ];
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "testing.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Testing" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
-         fhir:index 31;
+         fhir:index 32;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
@@ -1121,7 +1131,7 @@
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Transactions" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
-         fhir:index 32;
+         fhir:index 33;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
@@ -1131,7 +1141,7 @@
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Usecases" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
-         fhir:index 33;
+         fhir:index 34;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
