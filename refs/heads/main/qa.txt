@@ -3,7 +3,7 @@
 
 err = 20, warn = 7, info = 0
 IG Publisher Version: 1.2.26
-Generated Tue Jan 10 10:47:14 UTC 2023. FHIR version 4.0.1 for fhir.litlfred.ig-vcs#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-empty)
+Generated Tue Jan 10 13:29:30 UTC 2023. FHIR version 4.0.1 for fhir.litlfred.ig-vcs#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-empty)
  Build Errors : 137 / 3 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-fhir.litlfred.ig-vcs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-VerfiableCredentialJWT : 2 / 0 / 1
