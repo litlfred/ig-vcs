@@ -1,0 +1,16 @@
+map "http://litlfred.github.io/iv-vcs/StructureMap/BundleToVerifiableCredential" = "BundleToVerifiableCredential"
+
+uses "http://hl7.org/fhir/StructureDefinition/Bundle" as source
+uses "http://litlfred.github.io/ig-vcs/StructureDefinition/VerifiableCredentialBundle" as target
+
+
+group BundleToVerifiableCredential ( 
+  source bundle : Bundle,
+  target vc : VerifiableCredentialBundle
+) {
+  bundle -> vc.credentialSubject  as cs then {
+     bundle -> cs.fhirVersion = "4.0.1" "set version";
+     bundle -> cs.fhirBundle = bundle "set bundle";
+  } "Set Bundle's credenital and version";
+
+}
